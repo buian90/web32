@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap-header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap-header .logo {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.wrap-header ul {
+  display: flex;
+}
+.wrap-header li {
+  margin: 0 30px;
+  list-style: none;
+}
+.wrap-header li a {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+/* slider */
+.wrap-banner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+/* Produce */
+.wrap-listing .tittle {
+  text-align: center;
+  margin: 50px 0;
+}
+.wrap-listing .card img {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+}
+.wrap-listing .card {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.wrap-form {
+  width: 80%;
+  margin: auto;
+  padding: 120px 0;
+}
+.wrap-form h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}

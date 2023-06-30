@@ -1,0 +1,64 @@
+.completed {
+  text-decoration: line-through;
+}
+:root {
+  --primary-color: #73237f; /* Xanh lá cây */
+  --secondary-color: #ff69b4; /* Hồng */
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: white;
+}
+
+.list-group-item {
+  font-size: 30px;
+  margin: 10px;
+  list-style-type: none;
+  background-color: gray;
+}
+
+.btn-success {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-danger {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table td.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.tasks-remaining {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
