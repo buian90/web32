@@ -7,12 +7,12 @@ import Login from "./pages/Login";
 import PrivateRouter from "./auth/PrivateRouter";
 
 
-function App() {
+function App () {
   
   return (
       <BrowserRouter>
        <Routes>
-        {/* Dành cho ng dùng */}
+        {/* Dành cho người dùng */}
         <Route path="/" element={<Layout/>}>
 
          {/* đường dẫn trang động - products là danh mục mình tự đặt tên */}
